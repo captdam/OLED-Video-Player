@@ -8,7 +8,10 @@ Using ```Video_converter.py``` can convert the video into the binary bitmap whic
 <p align="center">
   <img src="https://lastminuteengineers.com/wp-content/uploads/arduino/1KB-128x64-OLED-Display-RAM-Memory-Map.png">
 </p>
-The Video_converter.py can read the video and convert it to black and white display. Then save a binary file for the converted video. And it is ready to load to the OLED screen.
+The Video_converter.py can read the video and convert it to black and white display. Then save a binary file for the converted video. And it is ready to load to the OLED screen. During the conversion, a preview window will provided.
+<p align="center">
+  <img src="./pics/1.jpg">
+</p>
 
 After converting the video into binary bitmap, launch console in the working directory and using the following code to write it into SD card, so it can be read by MCU later:
 
