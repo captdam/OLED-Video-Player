@@ -1,5 +1,7 @@
 # OLED Video Player
 
+<img src="https://raw.githubusercontent.com/captdam/OLED-Video-Player/main/pics/live.jpg" width="100%">
+
 Play a video on a 128*64 OLED screen.
 
 ## 1. Convert the video data
