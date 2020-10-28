@@ -34,9 +34,9 @@ def save_frame(frame, filename):
             bin_array = ""
             for pix in range(8):
                 if frame[page * 8 + pix][col] == 255:
-                    bin_array += "1"
+                    bin_array = "1" + bin_array
                 else:
-                    bin_array += "0"
+                    bin_array = "0" + bin_array
             bin_file.write(int(bin_array, 2).to_bytes(1, byteorder='big'))
     bin_file.close()
 
