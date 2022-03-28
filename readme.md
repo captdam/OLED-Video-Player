@@ -51,3 +51,12 @@ Before we can strat playing the video on LCD, we need to init it as well. See co
 After this, we can begin our main loop.
 
 For every iteration, we grap two block of data from SD card (one block is 512 bytes, one video frame is 1Ki bytes) via SPI, the send them to OLED via I2C. See code in ```/lcd.c``` in routine ```int main()``` for detail.
+
+
+
+![Mr.Banana 1](/pics/banana1.gif "Banana 1") | ![Mr.Banana 1](/pics/banana1.gif "Banana 1") | ![Mr.Banana 1](/pics/banana1.gif "Banana 1")
+--- | --- | ---
+![Mr.Banana 1](/pics/banana1.gif "Banana 1") | ![Mr.Banana 1](/pics/banana1.gif "Banana 1") | ![Mr.Banana 1](/pics/banana1.gif "Banana 1")
+![Mr.Banana 1](/pics/banana1.gif "Banana 1") | ![Mr.Banana 1](/pics/banana1.gif "Banana 1") | ![Mr.Banana 1](/pics/banana1.gif "Banana 1")
+![Mr.Banana 1](/pics/banana1.gif "Banana 1") | ![Mr.Banana 1](/pics/banana1.gif "Banana 1") | ![Mr.Banana 1](/pics/banana1.gif "Banana 1")
+![Mr.Banana 1](/pics/banana1.gif "Banana 1") | ![Mr.Banana 1](/pics/banana1.gif "Banana 1") | ![Mr.Banana 1](/pics/banana1.gif "Banana 1")
